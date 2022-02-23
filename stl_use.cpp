@@ -37,5 +37,5 @@ iter = v.rbegin();     // 返回指向最後一个元素的迭代器。(iter++�
 iter = v.rend();       // 返回指向第一个元素所在位置的前一个位置的迭代器。
 iter = v.cbegin();     // const的begin()。(不能修改元素)
 iter = v.cend();       // const的end()。(不能修改元素)
-auto iter = v.crbegin();     // const的rbegin()。(不能修改元素)
-auto iter = v.crend();      // const的rend()。(不能修改元素)
+iter = v.crbegin();     // const的rbegin()。(不能修改元素)
+iter = v.crend();      // const的rend()。(不能修改元素)
