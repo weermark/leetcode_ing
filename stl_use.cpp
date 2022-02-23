@@ -39,3 +39,10 @@ iter = v.cbegin();     // const的begin()。(不能修改元素)
 iter = v.cend();       // const的end()。(不能修改元素)
 iter = v.crbegin();     // const的rbegin()。(不能修改元素)
 iter = v.crend();      // const的rend()。(不能修改元素)
+
+// loop, use iter
+for(auto iter = v.begin(); iter != v.end(); ++iter){};  // normal for loop(++iter效率會比iter++好)
+for(auto iter : v){};     // range base for loop
+
+auto iter = v.begin();
+while(iter != v.end()){ iter++ };
