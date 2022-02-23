@@ -11,9 +11,11 @@ vector<int> v(5, 0);  // init，初始空間為5單位，值皆為0
 
 v.reserve(20);        // v擴充空間到20單位(原內容保留)
 
+v.resize(20);         // v空間改為20單位
+
 v.shrink_to_fit();    // 減縮v空間到當前使用大小
 
-// add ele
+// add, del ele
 v.push_back(2);       // 把2加到vector後面
 
 v.push_front(2);      // 把2加到vector前面
@@ -34,3 +36,5 @@ int c = v.capacity();	// 返回v當前容量(len)
 bool e = v.empty();   // 判斷v是否為空
 
 int a = v.at(3);      // 返回index 3的值
+
+swap(v1, v2);         // 交換v1與v2(v1=原v2)
