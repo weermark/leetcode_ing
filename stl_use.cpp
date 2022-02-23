@@ -27,11 +27,15 @@ int a = v.at(3);      // 返回index 3的值
 swap(v1, v2);         // 交換v1與v2(v1=原v2)
 
 // iterator
-auto iter = v.begin();      // 返回指向v中第一个元素的迭代器。
-auto iter = v.end();        // 返回指向v最後一个元素位置的後一个位置的迭代器。
-auto iter = v.rbegin();     // 返回指向最後一个元素的迭代器。(iter++為往前迭代)
-auto iter = v.rend();       // 返回指向第一个元素所在位置的前一个位置的迭代器。
-auto iter = v.cbegin();     // const的begin()。(不能修改元素)
-auto iter = v.cend();       // const的end()。(不能修改元素)
+vector<int>::iterator iter; // init
+// or
+auto iter = v.begin();
+
+iter = v.begin();      // 返回指向v中第一个元素的迭代器。
+iter = v.end();        // 返回指向v最後一个元素位置的後一个位置的迭代器。
+iter = v.rbegin();     // 返回指向最後一个元素的迭代器。(iter++為往前迭代)
+iter = v.rend();       // 返回指向第一个元素所在位置的前一个位置的迭代器。
+iter = v.cbegin();     // const的begin()。(不能修改元素)
+iter = v.cend();       // const的end()。(不能修改元素)
 auto iter = v.crbegin();     // const的rbegin()。(不能修改元素)
 auto iter = v.crend();      // const的rend()。(不能修改元素)
