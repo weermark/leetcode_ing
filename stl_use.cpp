@@ -2,6 +2,8 @@
 
 //init
 vector<int> v;        // 創立vector:
+vector<vector<int> > v; // 創立二維vector(c++98)
+vector<vector<int>> v; // 創立二維vector(c++11)
 vector<int> v{1,2,3}; // init，加入1,2,3
 vector<int> v(5);     // init，初始空間為5單位
 vector<int> v(5, 0);  // init，初始空間為5單位，值皆為0
@@ -42,6 +44,7 @@ iter = v.crend();      // const的rend()。(不能修改元素)
 
 // loop, use iter
 for(auto iter = v.begin(); iter != v.end(); ++iter){};  // normal for loop(++iter效率會比iter++好)
+
 for(auto iter : v){};     // range base for loop
 
 auto iter = v.begin();
