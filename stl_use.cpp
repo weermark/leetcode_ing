@@ -3,7 +3,7 @@
 //init
 vector<int> v;        // 創立vector:
 vector<vector<int> > v; // 創立二維vector(c++98)
-vector<vector<int>> v; // 創立二維vector(c++11)
+vector<vector<int>> v(10, vector<int>(6, 0)); // 創立二維vector(c++11)，初始空間為10X6，值全為0
 vector<int> v{1,2,3}; // init，加入1,2,3
 vector<int> v(5);     // init，初始空間為5單位
 vector<int> v(5, 0);  // init，初始空間為5單位，值皆為0
