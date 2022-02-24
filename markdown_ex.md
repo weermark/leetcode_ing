@@ -49,6 +49,9 @@ x = 2 + 2
 what is x
 ```
 
+---
+***
+
 [iT邦幫忙](https://ithelp.ithome.com.tw)
 
 IT相關的問題，可至(https://ithelp.ithome.com.tw)發問
