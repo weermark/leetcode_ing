@@ -22,8 +22,7 @@ v.erase(3);           // 清除index 3
 v.clear();            // 清空v
 
 // func
-int s = v.size();   // 返回v空間大小(len-1)
-int c = v.capacity();	// 返回v當前容量(len)
+int s = v.size();   // 返回v空間大小(等於len)
 bool e = v.empty();   // 判斷v是否為空
 int a = v.at(3);      // 返回index 3的值
 swap(v1, v2);         // 交換v1與v2(v1=原v2)
