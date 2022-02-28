@@ -37,7 +37,9 @@ a|切換insert，光標移動到字元後
 I|切換insert，光標移動到列首
 A|切換insert，光標移動到列尾
 o|切換insert，下一列新增一列
-:|切換command
+:|切換command，後續可加指令
+/|切換command，向下搜尋
+?|切換command，向上搜尋
 
 <br/>
 
