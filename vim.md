@@ -103,6 +103,7 @@ u|復原
 :num1,num2 s/word1/word2/g|在num1與num2列中把word1替換成word2 (g後加c會確認)
 :1,$s/word1/word2/g|把全部word1替換成word2
 :w|儲存
+:num|跳到第num列
 <br/>
 
 
