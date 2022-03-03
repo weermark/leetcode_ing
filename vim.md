@@ -2,7 +2,7 @@
 
 >所有的編輯指令，都必須在英文輸入法下才能作用。
 
->強烈建議安裝英文輸入法 (`<win>` + `<space>`切換輸入法)，並將`<caps lock>`鍵改成`<ctrl>` (window提供power toys軟體供改鍵)。
+>建議安裝英文輸入法 (`<win>` + `<space>`切換輸入法)，並將`<caps lock>`鍵改成`<ctrl>` (window提供power toys軟體供改鍵)。
 
 >更多改鍵想法可參考HHKB鍵盤配置。
 
@@ -82,12 +82,16 @@ dw|刪除一個單字 (delete word)
 di{|刪除{}內的內容 (delete inside { })
 da{|刪除{}內的內容，包含{}符號 (delete all { })
 yy|複製當列
-p|在下一列新增一列，並貼上
-10p|貼10次
+yw|複製光標所在單字
+p|貼上
+10p|貼上10次
+"+p|vim環境外複製的文字，可用此指令貼上
 J|當列與下一列合併
 u|復原
 `<ctrl>` r|重複
-.|重複
+.|重複(同上)
+`>>`|縮排(同tab)
+`<<`|取消縮排(往前一tab))
 
 <br/>
 
@@ -100,10 +104,12 @@ u|復原
 ---|---
 /word|向光標下方搜尋word (加n繼續往下搜尋)
 ?word|向光標上方搜尋word
-:num1,num2 s/word1/word2/g|在num1與num2列中把word1替換成word2 (g後加c會確認)
-:1,$s/word1/word2/g|把全部word1替換成word2
 :w|儲存
+:q|離開
 :num|跳到第num列
+:%s/word1/word2/gc|全部word1替換成word2，參數g(global)整列全部換(非只換一列第一個)，c(comfirm)取代前確認。參數可不加
+:num1,num2`s`/word1/word2/gc|num1到num2列的word1替換成word2，參數說明同上
+
 <br/>
 
 
@@ -112,3 +118,7 @@ u|復原
 <br/>
 
 用於選取
+
+指令|用途
+---|---
+`<ctrl>` v選取後按`I`|可多行插入輸入文字
