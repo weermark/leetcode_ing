@@ -111,13 +111,25 @@ u|復原
 /word|向光標下方搜尋word (加n繼續往下搜尋)
 ?word|向光標上方搜尋word
 :w|儲存
-:q|離開
+:q|關閉
 :num|跳到第num列
 :s/word1/word2/gc|當列word1替換成word2
 :%s/word1/word2/gc|全部word1替換成word2，參數g(global)整列全部換(非只換一列第一個)，c(comfirm)取代前確認。參數可不加
 :num1,num2`s`/word1/word2/gc|num1到num2列的word1替換成word2，參數說明同上
 :reg|查看暫存器內容
+
+<br>
+
+*多檔編輯*
+
+
+指令|用途
+---|---
 :vsp file|開啟file到視窗右側
+:`<ctrl>` w|光標於兩視窗間切換
+:tabn|切換到下一個檔案
+:tabp|切換到上一個檔案
+:qall|關閉全部檔案
 
 <br/>
 
@@ -126,15 +138,19 @@ u|復原
 
 <br/>
 
-用於選取
+等於window的shift選取
 
 指令|用途
 ---|---
-`<ctrl>` v選取後按`I`|可多行插入輸入文字
+選取後按`I`|可在多行開頭插入輸入文字
+選取後按`A`|可在多行結尾插入輸入文字
+選取後按`U`|選取範圍的字元轉大寫
+選取後按`u`|選取範圍的字元轉小寫
+
 
 <br>
 
-### 補充: 指令英文全名
+### *補充*: 指令英文全名
 指令|全名
 ---|---
 i|insert
@@ -145,10 +161,12 @@ s|substitute
 y|yank
 p|paste
 sp|split
+w|write
+q|quit
 
 <br>
 
-### 補充: 暫存器 (register)
+### *補充*: 暫存器 (register)
 vim中，暫存器名稱開頭會加上`"`，使用時會配合y與p
 
 常用暫存器分為以下幾種:
