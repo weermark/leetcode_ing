@@ -35,10 +35,11 @@ i|切換insert，光標移動到字元前
 a|切換insert，光標移動到字元後
 I|切換insert，光標移動到列首
 A|切換insert，光標移動到列尾
+cw|切換insert，刪除光標所在單字(類似d)
 o|切換insert，下一列新增一列
 :|切換command，後續可加指令
-/|切換command，向下搜尋
-?|切換command，向上搜尋
+/word|切換command，向下搜尋word
+?word|切換command，向上搜尋word
 
 <br/>
 
@@ -51,11 +52,14 @@ k|光標上移
 l|光標右移
 w|光標移至下個單字的頭
 e|光標移至下個單字的尾
+f char|光標移至當列char的位置
 0|光標移至當列頭
 $|光標移至當列尾
 H|光標移至畫面頂
 M|光標移至畫面中
 L|光標移至畫面底
+m char|以char標記光標所字元
+' char|光標移到char所標記字元
 
 
 <br/>
@@ -67,6 +71,8 @@ L|光標移至畫面底
 `<ctrl>` y|畫面向上移動一格
 `<ctrl>` d|畫面向下移動半頁
 `<ctrl>` u|畫面向上移動半頁
+`<ctrl>` f|畫面向下移動一頁
+`<ctrl>` b|畫面向下移動一頁
 
 
 <br/>
@@ -107,8 +113,11 @@ u|復原
 :w|儲存
 :q|離開
 :num|跳到第num列
+:s/word1/word2/gc|當列word1替換成word2
 :%s/word1/word2/gc|全部word1替換成word2，參數g(global)整列全部換(非只換一列第一個)，c(comfirm)取代前確認。參數可不加
 :num1,num2`s`/word1/word2/gc|num1到num2列的word1替換成word2，參數說明同上
+:reg|查看暫存器內容
+:vsp file|開啟file到視窗右側
 
 <br/>
 
@@ -122,3 +131,44 @@ u|復原
 指令|用途
 ---|---
 `<ctrl>` v選取後按`I`|可多行插入輸入文字
+
+<br>
+
+### 補充: 指令英文全名
+指令|全名
+---|---
+i|insert
+a|append (or add)
+c|change
+d|delete
+s|substitute
+y|yank
+p|paste
+sp|split
+
+<br>
+
+### 補充: 暫存器 (register)
+vim中，暫存器名稱開頭會加上`"`，使用時會配合y與p
+
+常用暫存器分為以下幾種:
+
+"+
+
+**系統暫存器**，作業系統下複製內容會被放入此reg
+
+""
+
+**無名暫存器**，d,c,x,y內容皆會放入此reg
+
+"0
+
+**複製專用暫存器**，y複製的內容會放入此reg
+
+"1 ~ "9
+
+**刪除專用暫存器**，d刪除的內容會被放入種reg。最新刪除內容會被放到 "1，原內容則延到 "2，依此類推。
+
+"a ~ "z
+
+**有名暫存器**，此reg的內容只能被使用者特別指定並放入
