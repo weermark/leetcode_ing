@@ -117,6 +117,7 @@ u|復原
 :%s/word1/word2/gc|全部word1替換成word2，參數g(global)整列全部換(非只換一列第一個)，c(comfirm)取代前確認。參數可不加
 :num1,num2`s`/word1/word2/gc|num1到num2列的word1替換成word2，參數說明同上
 :reg|查看暫存器內容
+:za|摺疊/展開
 
 <br>
 
