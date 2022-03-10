@@ -6,7 +6,11 @@
 
 >更多改鍵想法可參考HHKB鍵盤配置。
 
-列為row，行為col
+<br>
+
+此文章遵循以下規則:
+
+1. 列為row，行為col
 
 <pre>
    行1 行2 行3
@@ -14,6 +18,12 @@
 列2
 列3
 </pre>
+
+2. 中括號`[]`內的內容為變數。
+
+<br>
+
+新手想入門vim，可以跳至文章最後 **補充:快速入門**。
 
 <br>
 
@@ -47,8 +57,8 @@ A|切換insert，光標移動到列尾
 cw|切換insert，刪除光標所在單字(類似d)
 o|切換insert，下一列新增一列
 :|切換command，後續可加指令
-/word|切換command，向下搜尋word
-?word|切換command，向上搜尋word
+/[word]|切換command，向下搜尋word
+?[word]|切換command，向上搜尋word
 
 <br/>
 
@@ -61,7 +71,7 @@ k|光標上移
 l|光標右移
 w|光標移至下個單字的頭
 e|光標移至下個單字的尾
-f char|光標移至當列char的位置
+f[c]|光標移至當列c的位置
 0|光標移至當列頭
 $|光標移至當列尾
 H|光標移至畫面頂
@@ -69,8 +79,8 @@ M|光標移至畫面中
 L|光標移至畫面底
 gg|光標移至檔案首列
 G|光標移至檔案尾列
-m char|以char標記光標所在列
-' char|光標移到char所標記列
+m[c]|以c標記光標所在列
+'[c]|光標移到c所標記列
 
 
 <br/>
@@ -119,14 +129,14 @@ u|復原
 
 指令|用途
 ---|---
-/word|向光標下方搜尋word (加n繼續往下搜尋)
-?word|向光標上方搜尋word
+/[word]|向光標下方搜尋word (加n繼續往下搜尋)
+?[word]|向光標上方搜尋word
 :w|儲存
 :q|關閉
 :num|跳到第num列
-:s/word1/word2/gc|當列word1替換成word2
-:%s/word1/word2/gc|全部word1替換成word2，參數g(global)整列全部換(非只換一列第一個)，c(comfirm)取代前確認。參數可不加
-:num1,num2`s`/word1/word2/gc|num1到num2列的word1替換成word2，參數說明同上
+:s/[word1]/[word2]/gc|當列word1替換成word2
+:%s/[word1]/[word2]/gc|全部word1替換成word2，參數g(global)整列全部換(非只換一列第一個)，c(comfirm)取代前確認。參數可不加
+:[num1],[num2]`s`/[word1]/[word2]/gc|num1到num2列的word1替換成word2，參數說明同上
 :reg|查看暫存器內容
 :za|摺疊/展開
 
@@ -136,8 +146,8 @@ u|復原
 
 指令|用途
 ---|---
-:e file|開起file，不存在則新增
-:vsp file|開啟file到視窗右側
+:e [file]|開起file，不存在則新增
+:vsp [file]|開啟file到視窗右側
 :`<ctrl>` w|光標於兩視窗間切換
 :bn|切換到下一個檔案
 :bp|切換到上一個檔案
@@ -205,3 +215,24 @@ vim中，暫存器名稱開頭會加上`"`，使用時會配合y與p
 "a ~ "z
 
 **有名暫存器**，此reg的內容只能被使用者特別指定並放入
+
+<br>
+
+---
+
+### *補充*: 快速入門
+h|j|k|l
+---|---|---|---
+左|下|上|右
+
+<br>
+
+w|b|o|:[num]
+---|---|---|---
+跳下一個單字|跳上一個單字|新增一列|跳到num列
+
+<br>
+
+u|`<ctrl>` r
+---|---
+復原|重複
