@@ -48,7 +48,7 @@
 ---|---
 v|切換visual，單格選取
 V|切換visual，單列選取
-`<ctrl>` v|切換visual，單行選取
+`<ctrl>` v|切換visual，自由選取
 i|切換insert，光標移動到字元前
 a|切換insert，光標移動到字元後
 I|切換insert，光標移動到列首
