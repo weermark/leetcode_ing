@@ -19,7 +19,7 @@
 列3
 ```
 
-2. 中括號`[]`內的內容為變數。
+2. 中括號`[]`內的內容為動作或變數。
 
 <br>
 
@@ -53,7 +53,7 @@ i|切換insert，光標移動到字元前
 a|切換insert，光標移動到字元後
 I|切換insert，光標移動到列首
 A|切換insert，光標移動到列尾
-cw|切換insert，刪除光標所在單字(類似d)
+cw|切換insert，刪除光標所在單字(類似d，但d不切換insert)
 o|切換insert，下一列新增一列
 :|切換command，後續可加指令
 /[word]|切換command，向下搜尋word
