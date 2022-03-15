@@ -2,7 +2,7 @@
 
 set為關聯式容器(associated container)，元素不重複，有序，底層為紅黑樹。
 
-mutliset與set差在元素可以重複。
+multiset與set差在元素可以重複。
 
 `#include <unordered_set>`
 

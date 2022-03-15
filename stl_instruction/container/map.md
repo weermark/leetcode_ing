@@ -2,7 +2,7 @@
 
 map為關聯式容器(associated container)，元素不重複，有序，底層為紅黑樹。
 
-mutlimap與map差在元素可以重複。
+multimap與map差在元素可以重複。
 
 `#include <unordered_map>`
 
@@ -10,7 +10,7 @@ mutlimap與map差在元素可以重複。
 
 init
 ```c++
-
+map<int, int> m;
 ```
 
 change size
@@ -20,18 +20,16 @@ change size
 
 add, del ele
 ```c++
-
+m.insert(2, 100);    // (2, 100)加到s
+m[2] = 100;
+m.erase(2);     // 
+m.clear();      // 清空s
 ```
 
 func
 ```c++
-
-```
-
-iterator
-```c++
-```
-
-loop, use iter
-```c++
+int i = m.size();       // 返回s已使用空間大小
+bool b = m.count(3);    // 判斷3是否存在於s
+map<int>::iterator iter = m.find(3);    // 回傳3在s內的位址
+bool e = m.empty();     // 判斷s是否為空
 ```
