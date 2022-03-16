@@ -9,6 +9,7 @@ swap();
 reverse();
 sort();
 auto var = min();
+auto f = find(v.begin(), v.end(), 2);
 
 
 ```

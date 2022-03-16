@@ -10,7 +10,7 @@ multimap與map差在元素可以重複。
 
 init
 ```c++
-map<int, int> m;
+map<string, int> m;
 ```
 
 change size
@@ -20,8 +20,8 @@ change size
 
 add, del ele
 ```c++
-m.insert(2, 100);    // (2, 100)加到s
-m[2] = 100;
+m.insert({"小明", 60});    // {"小明", 60}加到s
+m["小明"] = 60;
 m.erase(2);     // 
 m.clear();      // 清空s
 ```
