@@ -21,8 +21,8 @@ change size
 add, del ele
 ```c++
 m.insert({"小明", 60});    // {"小明", 60}加到s
-m["小明"] = 60;
-m.erase(2);     // 
+m["小明"] = 60;             // 新增key小明，value為60
+m.erase(2);     // 清除key為2的pair
 m.clear();      // 清空s
 ```
 
