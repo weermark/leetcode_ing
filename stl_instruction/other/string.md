@@ -13,7 +13,7 @@ str.find("aa");     // 回傳aa所在位置
 
 init
 ```c++
-stringstream ss;
+sstream ss;
 ```
 
 buff
@@ -21,9 +21,10 @@ buff
 int num;
 char c;
 string tmp;
+
 cin >> tmp;
-tmp >> str;
-str >> c >> num;
+tmp >> ss;
+ss >> c >> num;
 ```
 
 ```c++
