@@ -23,6 +23,7 @@ v.insert(v.begin() + 3, 5)      // 把5插到v[3];
 v.pop_back();         // 刪除v最後面一個元素
 v.pop_front();        // 刪除v最前面一個元素
 v.erase(3);           // 清除index 3
+v.remove();           // ???
 v.clear();            // 清空v
 ```
 
