@@ -2,7 +2,7 @@
 
 [leetcode題目連結](https://leetcode.com/problems/reverse-string/)
 
-解釋: 反轉array內的元素。ex. index 0 與 index n-1 換，index 1 與 index n - 2 換...
+解釋: 反轉array內的元素。(ex. s[0] 與 s[n-1] 換，s[1] 與 s[n-2] 換...)
 
 ## 解題
 
