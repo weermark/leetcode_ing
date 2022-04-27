@@ -19,12 +19,3 @@ Note: 文章中，想法一、二若無標明，則為本人想法，若有括�
 ## stl_instruction
 
 紀錄 C++ STL 提供的工具。 
-
-
-### 另外，在刷題過程中有找到幾個還不錯的講解網站，放在下方供參考。
-
-[代码随想录](https://programmercarl.com/)
-
-[labuladong](https://labuladong.github.io/algo/)
-
-[leetcode_101](https://github.com/changgyhub/leetcode_101)
