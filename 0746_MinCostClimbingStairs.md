@@ -49,22 +49,40 @@ public:
 };
 ```
 
-問題:
+問題: 第i-3階的值在計算第i階時不會再用到。換句話說，for每次迭代時只會用到兩個陣列的值，計算完當階最小花費後，也只需要兩個空間存i和i-1階的最小花費，因此實際只需要兩個空間則可。
 
 <br/>
 
 ### 想法二:
 
-做法:
+做法: 優化想法一。
 
 程式:
 
 ```c++
 // success
-// time:  O()
-// space: O()
+// time:  O(n)
+// space: O(1)
 
-
+class Solution {
+public:
+    int minCostClimbingStairs(vector<int>& cost) {
+        int dp[2];
+        dp[0] = cost[0];
+        dp[1] = cost[1];
+        int tmp;
+        for(int i = 2; i < cost.size(); i++){
+            // 保存dp[1] (第i-1階的最小花費)
+            tmp = dp[1];
+            // dp[1]的值改為第i階的最小花費
+            dp[1] = (dp[0] < dp[1]) ? dp[0] : dp[1];
+            dp[1] += cost[i];
+            // dp[0]的值改為第i-1階的最小花費
+            dp[0] = tmp;
+        }
+        return (dp[0] < dp[1]) ? dp[0] : dp[1];
+    }
+};
 ```
 
 省思: 
