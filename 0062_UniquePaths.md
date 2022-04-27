@@ -91,8 +91,8 @@ public:
 
 ### 網路解二:
 
-做法: 組合數公式。在這m + n - 2個格子的移動中，一定會有m - 1步是往下走，而我們只需求向下走的方法有幾種即可。套用公式，得C m + n - 2取m - 1
+做法: 組合數公式。在這m + n - 2個格子的移動中，一定會有m - 1步是往下走，而我們只需求向下走的方法有幾種即可。套用公式，得下方公式。
 
-![\binom{n}{m}](https://latex.codecogs.com/svg.image?\binom{n}{m})
+![](https://latex.codecogs.com/svg.image?C_{n-1}^{m+n-2})
 
-<img src="https://latex.codecogs.com/svg.image?\binom{n}{m}" title="https://latex.codecogs.com/svg.image?\binom{n}{m}" />
+<!--<img src="https://latex.codecogs.com/svg.image?\binom{n}{m}" title="https://latex.codecogs.com/svg.image?\binom{n}{m}" />-->
