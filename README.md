@@ -19,3 +19,15 @@ Note: 文章中，想法一、二若無標明，則為本人想法，若有括�
 ## stl_instruction
 
 紀錄 C++ STL 提供的工具。 
+
+### 另外，有幾個網站能幫助書寫markdown，在此列出。
+
+[生成Latex](https://latex.codecogs.com/)
+
+使用以下的寫法，可生成組合公式。
+
+```
+![](https://latex.codecogs.com/svg.image?C_{m}^{n})
+```
+
+![](https://latex.codecogs.com/svg.image?C_{m}^{n})
