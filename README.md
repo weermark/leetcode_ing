@@ -24,10 +24,10 @@ Note: 文章中，想法一、二若無標明，則為本人想法，若有括�
 
 [生成Latex](https://latex.codecogs.com/)
 
-使用以下的寫法，可生成組合公式。
+寫法如下。
 
 ```
-![](https://latex.codecogs.com/svg.image?C_{m}^{n})
+![](https://latex.codecogs.com/svg.image?\sum_{i=1}^{n})
 ```
 
-![](https://latex.codecogs.com/svg.image?C_{m}^{n})
+![](https://latex.codecogs.com/svg.image?\sum_{i=1}^{n})
