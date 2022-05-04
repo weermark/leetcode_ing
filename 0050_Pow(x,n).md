@@ -1,4 +1,4 @@
-
+```c++
 
 class Solution {
 public:
@@ -21,6 +21,7 @@ public:
         return 0;
     }
 };
+```
 
 
 1.00000
