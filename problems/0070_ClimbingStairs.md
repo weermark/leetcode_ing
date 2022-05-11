@@ -2,7 +2,7 @@
 
 [leetcode題目連結](https://leetcode.com/problems/climbing-stairs/)
 
-解釋: 每次可以爬一階或兩階階梯，求爬到第n階階梯有幾種方法。
+解釋: 每次可以爬一階或兩階階梯，求爬到第 n 階階梯有幾種方法。
 
 ## 解題
 
@@ -14,8 +14,8 @@
 
 ```
 climbStairs(1) = 1          // 爬到第一階只有一種方法
-climbStairs(2) = 2          // 爬道第二階有兩種方法(1+1 or 2)
-climbStairs(n) = climbStairs(n - 1) + climbStairs(n - 2)        // 第n階一定是從第n-1階或n-2階爬上來
+climbStairs(2) = 2          // 爬道第二階有兩種方法 (1+1 or 2)
+climbStairs(n) = climbStairs(n - 1) + climbStairs(n - 2)        // 第 n 階一定是從第 n-1 階或 n-2 階爬上來
 ```
 
 程式:
@@ -39,7 +39,7 @@ public:
 
 ### 想法二:
 
-做法: 用dp，dp[i]代表爬到第i階的爬法數，狀態轉移方程如下。
+做法: 用 dp，dp[i] 代表爬到第 i 階的爬法數，狀態轉移方程如下。
 
 初始化:
 

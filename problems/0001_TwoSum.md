@@ -2,13 +2,13 @@
 
 [leetcode題目連結](https://leetcode.com/problems/two-sum/)
 
-解釋: 回傳nums[]內兩個相加等於target的數的index。
+解釋: 回傳 nums[] 內兩個相加等於 target 的元素的索引。
 
 ## 解題
 
 ### 想法一:
 
-做法: 創立map。迭代nums，如果nums[i]不存在map，則把target-nums[i]與i存入map。下次只要只要出現一數已存在於m，代表 target - nums[i] 等於此數。透過m[nums[i]]即可取得nums[i]的index。(設map中有一pair{5, 2}，代表nums[i]的index為2，target - nums[i]為5)
+做法: 創立 hash map。迭代 nums[]，如果 nums[i] 不存在 map ，則把 target-nums[i] 與 i 存入 map。下次只要出現一數已存在於 m，代表 target - nums[i] 等於此數。透過 m[nums[i]] 即可取得 nums[i] 的 index。 (ex. map 中有一 pair{5, 2}，代表 nums[i] 的索引為 2，target-nums[i] 為 5)
 
 程式:
 
@@ -32,7 +32,7 @@ public:
 };
 ```
 
-省思: 在決定存入與存取nums[i]還是target-nums[i]要多留心。
+省思: 在決定存入與存取 nums[i] 還是 target-nums[i] 要多留心。
 
 <br/>
 
