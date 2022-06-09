@@ -31,7 +31,7 @@ public:
         int sum = 0;
         for(int i : nums)
             sum += i;
-        // 陣列元素值加總為基數，無法拆解成兩個相等加總值的子集
+        // 陣列元素值加總為奇數，無法拆解成兩個相等加總值的子集
         if(sum % 2 == 1)    return false;
         int target = sum / 2;
         
