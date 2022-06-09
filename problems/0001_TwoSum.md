@@ -8,7 +8,7 @@
 
 ### 想法一:
 
-做法: 創立 hash map。迭代 nums[]，如果 nums[i] 不存在 map ，則把 target-nums[i] 與 i 存入 map。下次只要出現一數已存在於 m，代表 target - nums[i] 等於此數。透過 m[nums[i]] 即可取得 nums[i] 的 index。 (ex. map 中有一 pair{5, 2}，代表 nums[i] 的索引為 2，target-nums[i] 為 5)
+做法: 創立 hashMap。迭代 nums[]，如果 nums[i] 不存在 map ，則把 target-nums[i] 與 i 存入 map。下次只要出現一數已存在於 m，代表 target - nums[i] 等於此數。透過 m[nums[i]] 即可取得 nums[i] 的 index。 (ex. map 中有一 pair{5, 2}，代表 nums[i] 的索引為 2，target-nums[i] 為 5)
 
 程式:
 

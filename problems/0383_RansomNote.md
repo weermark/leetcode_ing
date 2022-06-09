@@ -2,13 +2,13 @@
 
 [leetcode題目連結](https://leetcode.com/problems/ransom-note/)
 
-解釋: 給予兩個string，如果第二個string可以包含第一個string相對應的各個alphabet量，回傳true，否則回傳false。
+解釋: 給予兩個 string，如果第二個 string 可以包含第一個 string 相對應的各個 alphabet 量，回傳 true，否則回傳 false。
 
 ## 解題
 
 ### 想法一:
 
-做法: 創立hash map，迭代magazine，map的key存出現的char，value存出現次數(數量)。而後再迭代ransomNote，把用到的char扣掉。如最後map中有負數，代表magazine中各char的數量無法滿足ransomNote所需數量，回傳false。
+做法: 創立 hashMap，迭代 magazine，map 的 key 存出現的 char，value 存出現次數(數量)。而後再迭代 ransomNote，把用到的 char 扣掉。如最後 map 中有負數，代表 magazine 中各 char 的數量無法滿足 ransomNote 所需數量，回傳 false。
 
 
 程式: 
@@ -40,7 +40,7 @@ public:
 
 ### 想法二:
 
-做法: 使用map比較花空間，因為確定出現的char為a-z，所以可以用array[26]就好。
+做法: 使用 map 比較花空間，因為確定出現的 char 必為 a-z，所以可以用 array[26] 就好。
 
 程式: 
 ```c++

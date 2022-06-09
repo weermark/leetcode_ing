@@ -8,7 +8,7 @@
 
 ### 想法一: 
 
-做法: 用 map，存 alphabet 與 frequency。
+做法: 用 hashMap，存 alphabet 與 frequency。
 
 程式:
 ```
