@@ -27,6 +27,7 @@ index   node
 // time:  O()
 // space: O()
 
+// java
 class Solution {
     List<List<Integer>> res = new LinkedList<>();
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
