@@ -95,32 +95,3 @@ public:
 
 省思: 程式碼與變數名太長，或許可用 range for 代替。
 
-<br/>
-
-### 網路解一:
-
-更簡潔
-
-```c++
-class Solution {
-public:
-    vector<string> commonChars(vector<string>& words) {
-        vector<int> cnt(26, INT_MAX);
-        vector<string> res;
-        
-        for(auto s : words){
-            vector<int> cnt1(26, 0);
-            for(auto c : s)
-                cnt1[c - 'a']++;
-            for(int i = 0; i < 26; i++)
-                // 無出現的字母對應的元素值皆為0 
-                cnt[i] = min(cnt[i], cnt1[i]);
-        }
-        for(int i = 0; i < 26; i++){
-            for(int j = 0; j < cnt[i]; j++)
-                res.push_back(string(1, i + 'a'));
-        }
-        return res;
-    }
-};
-```
