@@ -14,10 +14,7 @@
 
 ```c++
 // error: Wrong Answer
-/*
-input
-[0, 0]
-*/
+// input: [0, 0]
 
 class Solution {
 public:

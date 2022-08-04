@@ -15,11 +15,7 @@
 
 ```c++
 // error: Wrong Answer
-/* 
-input: 
-[10,9,8,7]
-[5,6,7,8]
-*/
+// input: [10,9,8,7][5,6,7,8]
 
 class Solution {
 public:

@@ -4,6 +4,20 @@
 
 解釋:
 
+```c++
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+```
+
 ## 解題
 
 ### 想法一:
@@ -18,17 +32,6 @@
 // 滿枝二元樹，底層最多同時會有 2 ^ lgn-1，也就是 (n/2) - 1 個 TreeNode 儲存在 queue 裡
 // space: O(n)
 
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
 class Solution {
 public:
     int minDepth(TreeNode* root) {
@@ -86,38 +89,4 @@ public:
 
 省思: 
 
-<br/>
-
--->
-
-### 網路解一:
-
-```java
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-
- // java
-class Solution {
-    public int minDepth(TreeNode root) {
-        // 當 root 為 leaf，回傳 0
-        if (root == null) return 0;
-        int l = minDepth(root.left);
-        int r = minDepth(root.right);
-        if (l == 0 || r == 0) {
-            return l + r + 1;
-        } else {
-            return Math.min(l, r) + 1;
-        }
-    }
-}
-```
-
-利用遞迴遍歷樹，短小乾淨。
 
