@@ -32,17 +32,17 @@ void treeNodeLevel(TreeNode root){
     if(root == null){
         return;
     }
-    treeNodeLevel(root, 1);
+    treeNodeLevelUtil(root, 1);
 }
 
-void treeNodeLevel(TreeNode root, int level){
+void treeNodeLevelUtil(TreeNode root, int level){
     if(root == null){
         return;
     }
     System.out.println("節點 " + root.val + " 的所在層數為 " + level);
 
-    treeNodeLevel(root.left, level + 1);
-    treeNodeLevel(root.right, level + 1);
+    treeNodeLevelUtil(root.left, level + 1);
+    treeNodeLevelUtil(root.right, level + 1);
     return;
 }
 ```
