@@ -2,7 +2,7 @@
 
 [leetcode題目連結](https://leetcode.com/problems/invert-binary-tree/)
 
-定義: 輸入一二元樹，鏡像翻轉二元樹。
+定義: 輸入一二元樹，鏡像翻轉二元樹，回傳翻轉後的根節點。
 
 ```java
 /**
@@ -26,7 +26,7 @@
 
 ### 想法一:
 
-做法: 在後序位置交換左節點和右節點，這樣會在遍歷到樹底後從下往上逐步交換。
+做法: 在後序位置交換左節點和右節點，這樣會在遍歷到樹底後從下往上逐步交換。用前序也可以。
 
 程式:
 
@@ -37,7 +37,7 @@
 
 // java
 class Solution {
-    public void exchange(TreeNode root){
+    public void exchangeSubNode(TreeNode root){
         TreeNode tmp = root.left;
         root.left = root.right;
         root.right = tmp;
@@ -46,7 +46,7 @@ class Solution {
         if(root == null)    return;
         invert(root.left);
         invert(root.right);
-        exchange(root);
+        exchangeSubNode(root);
         return;
     }
     public TreeNode invertTree(TreeNode root) {
