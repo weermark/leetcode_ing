@@ -2,17 +2,16 @@
 
 ## 文章模板
 
-*[template](template.md)
+* [template](template.md)
 
 leetcode 題目歷程記錄使用。
 
-*[other_template](other_template.md)
+* [other_template](other_template.md)
 
 非 leetcode 題目的紀錄使用。
 
 ## Array
 
-* []()
 
 ## LinkedList
 
@@ -27,6 +26,7 @@ leetcode 題目歷程記錄使用。
 * [0144_BinaryTreePreorderTraversal 二元樹的前序遍歷](0144_BinaryTreePreorderTraversal.md)
 * [0543_DiameterofBinaryTree 二元樹的最長直徑](0543_DiameterofBinaryTree.md)
 * [0226_InvertBinaryTree 翻轉二元樹](0226_InvertBinaryTree.md)
+* [0116_PopulatingNextRightPointersinEachNode 填充 next 指針](0116_PopulatingNextRightPointersinEachNode.md)
 
 * [other_TreeNodeCount 二元樹的節點數量](other_TreeNodeCount.md)
 * [other_TreeNodeLevel 二元樹的層數](other_TreeNodeLevel.md)

@@ -14,7 +14,7 @@
 
 程式:
 
-```c++
+```
 // error: 
 // fail:
 // reason: 
@@ -32,7 +32,7 @@
 
 程式:
 
-```c++
+```
 // success
 // time:  O()
 // space: O()

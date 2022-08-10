@@ -6,6 +6,6 @@
 
 ## STL介紹
 
-STL分為三大部分，分別為container, iterator和alogrithm。
+STL 分為三大部分，分別為 container, iterator 和 alogrithm。
 
-container的特色在文章中介紹。
+container 的特色在文章中介紹。
