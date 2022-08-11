@@ -92,18 +92,15 @@ class Solution {
 
 // java
 class Solution {
-    private Queue<Node> q;
-    public void bfs(){
-        while(!q.isEmpty()){
-            // 取出虛擬頭
-            Node guard = q.poll();
-            // 當層的首個節點為 null，結束程式
-            if(q.peek() == null)    return;
+    public Node connect(Node root) {
+        Queue<Node> q = new LinkedList<>();
+        q.offer(root);
+        
+        while(q.peek() != null){
             // 計算當層節點數
             int sz = q.size();
-            // 把虛擬頭放入下一層的頭
-            q.offer(guard);
-            Node preNode = guard;
+            // 虛擬頭
+            Node preNode = new Node(-1);
             // 把當層節點用 next 相連
             for(int i = 0; i < sz; ++i){
                 Node curNode = q.poll();
@@ -114,17 +111,41 @@ class Solution {
                 q.offer(preNode.right);
             }
         }
-    }
-    public Node connect(Node root) {
-        q = new LinkedList<>();
-        // 虛擬頭會不斷地被放到 queue 的層與層之間，方便操作。
-        Node guard = new Node(-1);
-        q.offer(guard);
-        q.offer(root);
-        bfs();
         return root;
     }
 }
 ```
 
 省思: 利用虛擬頭簡化每層首個節點的處理。
+
+<br>
+
+### 想法三:
+
+做法: 遍歷。
+
+程式:
+
+```java
+// success
+// time:  O(v)
+// space: O(h)
+
+// java
+class Solution {
+    public Node connect(Node root) {
+        if(root == null)    return null;
+        
+        if(root.left != null)
+            root.left.next = root.right;
+        if(root.right != null && root.next != null)
+            root.right.next = root.next.left;
+        
+        connect(root.left);
+        connect(root.right);
+        return root;
+    }
+}
+```
+
+省思: 每次取 root 以外的節點都要一個判斷。
