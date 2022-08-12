@@ -16,6 +16,7 @@ leetcode 題目歷程記錄使用。
 ## LinkedList
 
 * [0206_ReverseLinkedList 反轉鏈結](0206_ReverseLinkedList.md)
+* [0021_MergeTwoSortedLists 合併鏈結](0021_MergeTwoSortedLists.md)
 
 ## Hash
 
