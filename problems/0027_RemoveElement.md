@@ -8,7 +8,7 @@
 
 ### 想法一:
 
-做法: 雙指針 slow 與 fast，兩指針皆指向頭元素。當 nums[fast] 不等於 val 時，兩指針皆往後一步，當 nums[fast] == val，fast 往後移而 slow 停下。無論如何，下一次迴圈開始時皆令 nums[slow] = nums[flow]，使得原本位置為 val 的元素在迴圈中逐漸被後面非 val 的元素覆蓋。
+做法: 雙指針 slow 與 fast，兩指針皆指向頭元素。當 nums[fast] 不等於 val 時，兩指針皆往後一步，當 nums[fast] == val，fast 往後移而 slow 停下。無論如何，下一次迴圈開始時皆令 nums[slow] = nums[flow]，使得原本位置值為 val 的元素在迴圈中逐漸被後面值不等於 val 的元素覆蓋。
 
 程式:
 

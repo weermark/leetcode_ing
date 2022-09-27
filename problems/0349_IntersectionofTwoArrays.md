@@ -2,7 +2,7 @@
 
 [leetcode題目連結](https://leetcode.com/problems/intersection-of-two-arrays/submissions/)
 
-解釋: 回傳 nums1 與 nums2 中都出現過的元素。
+解釋: 回傳參數陣列 nums1 與 nums2 中都出現過的元素。
 
 ## 解題
 

@@ -2,7 +2,7 @@
 
 [leetcode題目連結](https://leetcode.com/problems/valid-anagram/)
 
-題目給定兩個 string *s* 與 *t* ，要求這兩組 string 是否是字謎(字母出現頻率相同但位置不同的單字)。
+題目給定兩個字串 *s* 與 *t* ，求這兩組字串是否是字謎 (字母溢位詞，字母出現頻率相同但位置不同的單字)。
 
 ## 解題
 

@@ -2,7 +2,7 @@
 
 [leetcode題目連結](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
-解釋: 回傳最小長度子陣列長度，其總和大於或等於 target。
+解釋: 回傳最小長度的子陣列，其總和大於或等於 target。
 
 ## 解題
 

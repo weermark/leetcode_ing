@@ -2,7 +2,7 @@
 
 [leetcode題目連結](https://leetcode.com/problems/ransom-note/)
 
-解釋: 給予兩個 string，如果第二個 string 可以包含第一個 string 相對應的各個 alphabet 量，回傳 true，否則回傳 false。
+解釋: 給兩個字串，如果第二個字串可以包含第一個字串相對應的各個字母量，回傳 true，否則回傳 false。
 
 ## 解題
 

@@ -2,7 +2,7 @@
 
 [leetcode題目連結](https://leetcode.com/problems/all-paths-from-source-to-target/)
 
-解釋: 給一有向無環圖 (相鄰矩陣實現)，回傳 0 到 n-1 的所有路徑。
+解釋: 給一有向無環圖 (相鄰矩陣實現)，回傳從 0 連到 n-1 的所有路徑。
 
 輸入範例: 
 graph = [[1,2],[3],[3],[]]
@@ -30,6 +30,7 @@ index   node
 // java
 class Solution {
     List<List<Integer>> res = new LinkedList<>();
+
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
         LinkedList<Integer> path = new LinkedList<>();
         DFSTraverse(graph, 0, path);
@@ -38,6 +39,7 @@ class Solution {
     
     public void DFSTraverse(int[][] graph, int node, LinkedList<Integer> path){
         path.add(node);
+        // 此路徑可連到 n-1
         if(node == graph.length - 1){
             // 注意回傳新複製的 path，不然存在 res 的都會是同一個實體。
             res.add(new LinkedList<>(path));
