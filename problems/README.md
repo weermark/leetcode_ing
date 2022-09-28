@@ -46,7 +46,6 @@ leetcode 題目歷程記錄使用。
 * [0226_InvertBinaryTree 翻轉二元樹](0226_InvertBinaryTree.md)
 * [0116_PopulatingNextRightPointersinEachNode 填充 next 指針](0116_PopulatingNextRightPointersinEachNode.md)
 * [0654_MaximumBinaryTree 建構最大二元樹](0654_MaximumBinaryTree.md)
-
 * [other_TreeNodeCount 二元樹的節點數量](other_TreeNodeCount.md)
 * [other_TreeNodeLevel 二元樹的層數](other_TreeNodeLevel.md)
 
