@@ -4,21 +4,21 @@
 
 ## problems
 
-## [文章目錄](./problems/README.md)
+[文章目錄](./problems)
 
 Note: 系列文章中的書寫規則記錄在 problems/rule.md 內。
 
-## markdown_ex.md
+## [markdown_ex](markdown_ex.md)
 
 紀錄 markdown 語法。
 
 
-## vim.md
+## [vim](./vim.md)
 
 紀錄 vim 的指令與應用。
 
 
-## stl_instruction
+## [stl_instruction](./stl_instruction)
 
 紀錄 C++ STL 提供的工具。 
 
