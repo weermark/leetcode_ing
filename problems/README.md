@@ -27,6 +27,10 @@ leetcode 題目歷程記錄使用。
 * [0206_ReverseLinkedList 反轉鏈結](0206_ReverseLinkedList.md)
 * [0021_MergeTwoSortedLists 合併鏈結](0021_MergeTwoSortedLists.md)
 
+## Stack 
+
+* [0020_ValidParentheses 有效括號](0020_ValidParentheses.md)
+
 ## Hash
 
 * [0001_TwoSum 兩數之和](0001_TwoSum.md)
