@@ -32,6 +32,7 @@ void treeNodeLevel(TreeNode root){
     if(root == null){
         return;
     }
+
     treeNodeLevelUtil(root, 1);
 }
 
@@ -39,6 +40,7 @@ void treeNodeLevelUtil(TreeNode root, int level){
     if(root == null){
         return;
     }
+    
     System.out.println("節點 " + root.val + " 的所在層數為 " + level);
 
     treeNodeLevelUtil(root.left, level + 1);

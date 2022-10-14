@@ -47,6 +47,8 @@ leetcode 題目歷程記錄使用。
 * [0111_MinimumDepthofBinaryTree 二元樹的最小深度](0111_MinimumDepthofBinaryTree.md)
 * [0144_BinaryTreePreorderTraversal 二元樹的前序遍歷](0144_BinaryTreePreorderTraversal.md)
 * [0543_DiameterofBinaryTree 二元樹的最長直徑](0543_DiameterofBinaryTree.md)
+* [other_TreeNodeCount 二元樹的節點數](other_TreeNodeCount.md)
+* [other_TreeNodeLevel 二元樹節點的所在層數](other_TreeNodeLevel.md)
 * [0226_InvertBinaryTree 翻轉二元樹](0226_InvertBinaryTree.md)
 * [0116_PopulatingNextRightPointersinEachNode 填充 next 指針](0116_PopulatingNextRightPointersinEachNode.md)
 * [0654_MaximumBinaryTree 建構最大二元樹](0654_MaximumBinaryTree.md)
@@ -76,9 +78,10 @@ leetcode 題目歷程記錄使用。
 
 ## Dynamic Programming
 
+* [other_KnapsackProblem 01背包問題](other_KnapsackProblem.cpp)
 * [0070_ClimbingStairs 爬樓梯](0070_ClimbingStairs.md)
 * [0509_FibonacciNumber 費氏數列](0509_FibonacciNumber.md)
-* [1049_LastStoneWeightII ???](1049_LastStoneWeightII.md)
+* [1049_LastStoneWeightII 最後的石頭重量II](1049_LastStoneWeightII.md)
 * [0062_UniquePaths 不同路徑](0062_UniquePaths.md)
 * [0343_IntegerBreak 整數拆分](0343_IntegerBreak.md)
 * [0416_PartitionEqualSubsetSum ???](0416_PartitionEqualSubsetSum.md)
@@ -87,3 +90,4 @@ leetcode 題目歷程記錄使用。
 ## SQL
 
 * [0175_CombineTwoTables 合併兩表格](0175_CombineTwoTables.md)
+* [0182_DuplicateEmails 重複 emails](0182_DuplicateEmails.md)

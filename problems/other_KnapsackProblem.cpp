@@ -35,9 +35,16 @@ int main(){
     // transfer
     for(int i = 1; i < dp.size(); i++){
         for(int j = 1; j < dp[0].size(); j++){
+            // 背包負重 j 小於物品 i 的重量，一定不背
             if(j < w[i])
                 dp[i][j] = dp[i - 1][j];
             else
+                /*
+                max(不背, 背)
+
+                不背，等同在負重 j 下，從物品 0 ~ i-1 中選擇能背的最大價值。
+                背，dp[i - 1][j - w[i]] 代表背包在 j-w[i] 的負重下，從物品 0 ~ i-1 中選擇能背的最大價值，加上物品 i 的價值。
+                */
                 dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - w[i]] + v[i]);
         }
     }
