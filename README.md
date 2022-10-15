@@ -8,22 +8,22 @@ Note: 系列文章中的書寫規則記錄在 problems/rule.md 內。
 
 ## 其他工具
 
-* [markdown_ex](markdown_ex.md)
+* [Markdown example](markdown_ex.md)
 
 紀錄 markdown 語法。
 
 
-* [vim](./vim.md)
+* [Vim](./vim.md)
 
 紀錄 vim 的指令與應用。
 
 
-* [stl_instruction](./stl_instruction.md)
+* [STL Instruction](./stl_instruction/README.md)
 
 紀錄 C++ STL 提供的工具。 
 
 
-* [生成Latex](https://latex.codecogs.com/)
+* [生成 Latex](https://latex.codecogs.com/)
 
 寫法如下。
 
