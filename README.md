@@ -6,24 +6,24 @@
 
 Note: 系列文章中的書寫規則記錄在 problems/rule.md 內。
 
-## [markdown_ex](markdown_ex.md)
+## 其他工具
+
+* [markdown_ex](markdown_ex.md)
 
 紀錄 markdown 語法。
 
 
-## [vim](./vim.md)
+* [vim](./vim.md)
 
 紀錄 vim 的指令與應用。
 
 
-## [stl_instruction](./stl_instruction.md)
+* [stl_instruction](./stl_instruction.md)
 
 紀錄 C++ STL 提供的工具。 
 
 
-### 另外，有幾個網站能幫助書寫 markdown，在此列出。
-
-[生成Latex](https://latex.codecogs.com/)
+* [生成Latex](https://latex.codecogs.com/)
 
 寫法如下。
 
