@@ -1,6 +1,6 @@
 # Container
 
-Sequence: vector
+Sequence: vector, list
 
 Associated: map, set, multimap, multiset
 

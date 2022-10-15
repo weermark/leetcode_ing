@@ -1,9 +1,9 @@
 init
 ```c++
-int i = str.length();   // 回傳str長度
-int i = str.size();     // 回傳str長度
+int i = str.length();   // 回傳 str 長度
+int i = str.size();     // 回傳 str 長度
 
-str.find("aa");     // 回傳aa所在位置
+str.find("aa");     // 回傳 aa 所在位置
 
 // str[i] === char 
 ```
@@ -28,5 +28,5 @@ ss >> c >> num;
 ```
 
 ```c++
-ss.eof();       //ss是否到底
+ss.eof();       //ss 是否觸底
 ```

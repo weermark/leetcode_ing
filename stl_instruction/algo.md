@@ -12,7 +12,7 @@ sort(v.begin(),v.end(),std::greater<int>())         // 逆排序v
 count(v.begin(), v.end(), 5);                            // 在v找5
 
 auto var = min();           // 找v內的最小值
-max();                      // 找v內的最大值
+auto var = max();           // 找v內的最大值
 auto f = find(v.begin(), v.end(), 2);
 
 
