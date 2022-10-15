@@ -84,7 +84,7 @@ leetcode 題目歷程記錄使用。
 * [1049_LastStoneWeightII 最後的石頭重量II](1049_LastStoneWeightII.md)
 * [0062_UniquePaths 不同路徑](0062_UniquePaths.md)
 * [0343_IntegerBreak 整數拆分](0343_IntegerBreak.md)
-* [0416_PartitionEqualSubsetSum ???](0416_PartitionEqualSubsetSum.md)
+* [0416_PartitionEqualSubsetSum 部分相等子集總和](0416_PartitionEqualSubsetSum.md)
 * [0746_MinCostClimbingStairs 爬樓梯之最小花費](0746_MinCostClimbingStairs.md)
 
 ## SQL
