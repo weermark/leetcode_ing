@@ -46,9 +46,9 @@ public:
 
 <br/>
 
-### 想法二(修正想法一):
+### 想法二 (修正想法一):
 
-做法: 創立 26 個空間的陣列，每個字母的 char 轉成 0-25(a-z)，如有出現某字母，把陣列中對應索引的元素值加一。同時時用兩個vector，一個記錄舊的，一個更新。每次遍歷完一個單字，就用min() 取每個字母出現最小次數存回紀錄舊的陣列。
+做法: 創立兩個 26 個空間的陣列 (每個字母的 char 轉成 0-25 (a-z))，如有出現某字母，把陣列中對應索引的元素值加一。同時兩個陣列，一個記錄舊的字母出現最小次數，一個記錄新的字母出現最小次數。每次遍歷完一個單字，就用 min() 取每個字母出現最小次數存回紀錄舊的陣列 (在一個單字中沒出現，那該索引的元素值恆為 0)。
 
 程式:
 
@@ -65,22 +65,26 @@ public:
         vector<string> ans;
         int index;
         string s;
-        
+        // 先初始化 recordOld 元素值
         for(int i = 0; i < words[0].size(); i++){
             index = words[0][i] - 'a';
             recordOld[index]++;
         }
         
         for(int i = 1; i < words.size(); i++){
+            // recordNew 記錄新單字字母數，因此每次遍歷前歸 0
             fill(recordNew.begin(), recordNew.end(), 0);
+            // 遍歷新單字
             for(int j = 0; j < words[i].size(); j++){
                 index = words[i][j] - 'a';
                 recordNew[index]++;
             }
+            // 與過去遍歷的單字比較字母出現數
             for(int j = 0; j < 26; j++){
                 recordOld[j] = min(recordOld[j], recordNew[j]);
             }
         }
+        // 結算各字母出現數
         for(int i = 0; i < 26; i++){
             while(recordOld[i] != 0){
                 s = i + 'a';

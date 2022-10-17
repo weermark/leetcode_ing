@@ -40,7 +40,7 @@ leetcode 題目歷程記錄使用。
 * [0349_IntersectionofTwoArrays 兩陣列的交集](0349_IntersectionofTwoArrays.md)
 * [0383_RansomNote 贖金信](0383_RansomNote.md)
 * [0454_4SumII 四數之和](0454_4SumII.md)
-* [1002_FindCommonCharacters ???](1002_FindCommonCharacters.md)
+* [1002_FindCommonCharacters 找出共同字母出](1002_FindCommonCharacters.md)
 
 ## Tree
 
@@ -58,7 +58,7 @@ leetcode 題目歷程記錄使用。
 
 ## String
 
-* [1002_FindCommonCharacters ???](1002_FindCommonCharacters.md)
+* [1002_FindCommonCharacters 找出共同字母出](1002_FindCommonCharacters.md)
 * [0383_RansomNote 贖金信](0383_RansomNote.md)
 * [0242_ValidAnagram 有效的字謎](0242_ValidAnagram.md)
 
