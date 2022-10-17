@@ -18,6 +18,7 @@ leetcode 題目歷程記錄使用。
 * [0344_ReverseString 反轉字串](0344_ReverseString.md)
 * [0977_SquaresofaSortedArray 有序陣列的平方](0977_SquaresofaSortedArray.md)
 * [0283_MoveZeroes 移動零](0283_MoveZeroes.md)
+* [0704_BinarySearch 二分搜索](0704_BinarySearch.md)
 
 ### 滑動窗口
 * [0209_MinimumSizeSubarraySum 最小長度子陣列](0209_MinimumSizeSubarraySum.md)
