@@ -15,6 +15,7 @@ leetcode 題目歷程記錄使用。
 ### 雙指針
 
 * [0027_RemoveElement 移除元素](0027_RemoveElement.md)
+* [0009_PalindromeNumber 迴文數](0009_PalindromeNumber.md)
 * [0344_ReverseString 反轉字串](0344_ReverseString.md)
 * [0977_SquaresofaSortedArray 有序陣列的平方](0977_SquaresofaSortedArray.md)
 * [0283_MoveZeroes 移動零](0283_MoveZeroes.md)
