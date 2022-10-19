@@ -70,6 +70,7 @@ leetcode 題目歷程記錄使用。
 ## Backtrack
 
 * [0797_AllPathsFromSourcetoTarget 所有路徑](0797_AllPathsFromSourcetoTarget.md)
+* [0046_Permutations 全排列問題](0046_Permutations.md)
 
 ## Greedy
 
