@@ -62,7 +62,7 @@ leetcode 題目歷程記錄使用。
 * [1002_FindCommonCharacters 找出共同字母出](1002_FindCommonCharacters.md)
 * [0383_RansomNote 贖金信](0383_RansomNote.md)
 * [0242_ValidAnagram 有效的字謎](0242_ValidAnagram.md)
-
+* [0014_LongestCommonPrefix 最長共同字首](0014_LongestCommonPrefix.md)
 ## Graph
 
 * [0797_AllPathsFromSourcetoTarget 所有路徑](0797_AllPathsFromSourcetoTarget.md)
