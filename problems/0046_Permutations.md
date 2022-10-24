@@ -15,7 +15,9 @@
 ```c++
 // success
 // time:  O(n * n!)
-// space: O(n!)
+// 得到一個排列可能需要 n 次操作，共有 n! 個排列可能
+// space: O(n)
+// 每得到一個排列可能需要深度為 n 的遞迴樹
 
 class Solution {
 public:
