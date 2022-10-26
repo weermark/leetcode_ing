@@ -1,4 +1,4 @@
-# **以下內容自IT邦教學文整理而來*
+# **以下內容自IT邦教學文及文檔整理而來*
 <br/>
 <br/>
 
@@ -74,3 +74,18 @@ function test() {
 --- | ---
 李大華 | 桃園
 張小明 | 高雄
+
+I get 10 times more traffic from [Google][] than from
+[Yahoo][] or [MSN][].
+
+  [google]: http://google.com/        "Google"
+  [yahoo]:  http://search.yahoo.com/  "Yahoo Search"
+  [msn]:    http://search.msn.com/    "MSN Search"
+
+
+-----------------------
+參考文章:
+
+https://ithelp.ithome.com.tw/markdown
+
+https://markdown.tw/
