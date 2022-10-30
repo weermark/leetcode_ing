@@ -1,0 +1,9 @@
+10~20 -> O(2^n) or O(n!)
+100~200 -> O(n^3)
+1000~2000 -> O(n^2)
+10^5~10^6 -> O(kn) or O(nlogn)
+10^8~10^9+ -> O(logn)
+
+
+
+https://ithelp.ithome.com.tw/articles/10299042?sc=iThelpR
