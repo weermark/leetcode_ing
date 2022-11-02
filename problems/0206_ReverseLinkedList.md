@@ -29,33 +29,50 @@
 
 ```java
 // success
-// time:  O()
-// space: O()
+// time:  O(n)
+// space: O(n)
 
 // java
 class Solution {
-    public ListNode res = null;
-    public ListNode traverse(ListNode head) {
-        if(head == null)    return null;
-        System.out.println(head.val);
-        ListNode nextNode = traverse(head.next);
-        if(nextNode == null){
-            res = head;
-            return head;
-        }
-        nextNode.next = head;
-        return head;
+    private ListNode lastNode = null;
+
+    private boolean nodeIsNull(ListNode node){
+        return (node == null);
     }
+    
+    private void nodeLinkToNode(ListNode frontNode, ListNode backNode){
+        frontNode.next = backNode;
+    }
+
+    private boolean nodeIsLastOne(ListNode node){
+        return (node.next == null);
+    }
+
+    public ListNode reverseListUtil(ListNode curNode) {
+        // base case
+        if(nodeIsLastOne(curNode)){
+            lastNode = curNode;
+            return curNode;
+        }
+        // recursive case
+        ListNode nextNode = reverseListUtil(curNode.next);
+        
+        nodeLinkToNode(nextNode, curNode);
+        nodeLinkToNode(curNode, null);
+        return curNode;
+    }
+
+    // main
     public ListNode reverseList(ListNode head) {
-        if(head == null)    return null;
-        traverse(head);
-        head.next = null;
-        return res;
+        if(nodeIsNull(head))    return null;
+
+        reverseListUtil(head);
+        return lastNode;
     }
 }
 ```
 
-省思: 可在優化。
+省思: 可再優化。
 
 <br/>
 
@@ -65,12 +82,26 @@ class Solution {
 
 程式:
 
-```
+```java
 // success
-// time:  O()
-// space: O()
+// time:  O(n)
+// space: O(1)
 
-
+// java
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        ListNode pre = null;
+        ListNode cur = head;
+        ListNode tmp = null;
+        while(cur != null){
+            tmp = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = tmp;
+        }
+        return pre;
+    }
+}
 ```
 
 省思: 
