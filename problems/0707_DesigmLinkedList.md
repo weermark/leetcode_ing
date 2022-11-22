@@ -17,54 +17,54 @@
 
 class MyNode{
 private:
-    int _val;
-    MyNode* _next;
+    int val;
+    MyNode* next;
     friend class MyLinkedList;
 public:   
     MyNode(int val){
-        this->_val = val;
-        _next = NULL;
+        this->val = val;
+        next = NULL;
     }
 };
 
 class MyLinkedList {
 private:
-    MyNode* _dummyHead;
-    int _size;
+    MyNode* dummyHead;
+    int size;
 
     bool outOfList(int index){
-        return index > _size - 1;
+        return index > size - 1;
     }
     
     MyNode* findNode(int index){
         ++index;
-        MyNode* node = _dummyHead;
+        MyNode* node = dummyHead;
         for(; index > 0; --index)
-            node = node->_next;
+            node = node->next;
         return node;
     }
     
     void insertNode(MyNode* prev, MyNode* newNode){
-        newNode->_next = prev->_next;
-        prev->_next = newNode;
+        newNode->next = prev->next;
+        prev->next = newNode;
     }
     
     void deleteNode(MyNode* prev, MyNode* nodeToDelete){
-        prev->_next = nodeToDelete->_next;
+        prev->next = nodeToDelete->next;
         delete nodeToDelete;
     }
 
 public:
     MyLinkedList() {
-        _dummyHead = new MyNode(-1);
-        _size = 0;
+        dummyHead = new MyNode(-1);
+        size = 0;
     }
 
     // time:  O(n)
     // space: O(1)
     void printList(){
-        for(MyNode* cur = _dummyHead->_next; cur != NULL; cur = cur->_next){
-            cout << cur->_val << " ";
+        for(MyNode* cur = dummyHead->next; cur != NULL; cur = cur->next){
+            cout << cur->val << " ";
         }
         cout << endl;
     }
@@ -75,15 +75,15 @@ public:
         if(outOfList(index))    return -1;
         
         MyNode* current = findNode(index);
-        return current->_val;
+        return current->val;
     }
     
     // time:  O(1)
     // space: O(1)
     void addAtHead(int val) {
         MyNode* newNode = new MyNode(val);
-        insertNode(_dummyHead, newNode);
-        ++_size;
+        insertNode(dummyHead, newNode);
+        ++size;
     }
     
     // time:  O(n)
@@ -91,22 +91,22 @@ public:
     void addAtTail(int val) {
         MyNode* newNode = new MyNode(val);
         // find the last Node
-        MyNode* lastNode = findNode(_size - 1);
-        lastNode->_next = newNode;
-        ++_size;
+        MyNode* lastNode = findNode(size - 1);
+        lastNode->next = newNode;
+        ++size;
     }
     
     // time:  O(n)
     // space: O(1)
     void addAtIndex(int index, int val) {
         // index can before last ndoe
-        if(outOfList(index) && index != _size)    return;
+        if(outOfList(index) && index != size)    return;
         
         MyNode* newNode = new MyNode(val);
         // the node's index before target is index - 1
         MyNode* prev = findNode(index - 1);
         insertNode(prev, newNode);
-        ++_size;
+        ++size;
     }
     
     // time:  O(n)
@@ -116,8 +116,8 @@ public:
         
         // the node's index before target is index - 1
         MyNode* prev = findNode(index - 1);
-        deleteNode(prev, prev->_next);
-        --_size;
+        deleteNode(prev, prev->next);
+        --size;
     }
 };
 
