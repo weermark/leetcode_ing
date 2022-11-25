@@ -34,7 +34,7 @@
 ### *切換*
 指令|用途
 ---|---
-`<ctrl>` [|切換 normal
+`<ctrl> [`|切換 normal
 `<esc>`|切換 normal
 
 <br/>
