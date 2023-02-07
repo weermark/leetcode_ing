@@ -23,7 +23,7 @@ char c;
 string tmp;
 
 cin >> tmp;
-tmp >> ss;
+ss << tmp;
 ss >> c >> num;
 ```
 
