@@ -37,7 +37,7 @@ leetcode 題目歷程記錄使用。
 
 ## Stack 
 
-* [0020_Valid Parentheses 有效括號](0020_Valid_Parentheses.md)
+* [0020. Valid Parentheses 有效括號](0020_Valid_Parentheses.md)
 
 ## Hash
 
@@ -51,7 +51,7 @@ leetcode 題目歷程記錄使用。
 
 ## Tree
 
-* [0104_Maximum Depth of Binary Tree 二元樹的最大深度](0104_Maximum_Depth_of_Binary_Tree.md)
+* [0104. Maximum Depth of Binary Tree 二元樹的最大深度](0104_Maximum_Depth_of_Binary_Tree.md)
 * [0111. Minimum Depth of Binary Tree 二元樹的最小深度](0111_Minimum_Depth_of_Binary_Tree.md)
 * [0144. Binary Tree Preorder Traversal 二元樹的前序遍歷](0144_Binary_Tree_Preorder_Traversal.md)
 * [0543. Diameter of Binary Tree 二元樹的最長直徑](0543_Diameter_of_Binary_Tree.md)
@@ -63,7 +63,7 @@ leetcode 題目歷程記錄使用。
 
 ## String
 
-* [1002_Find Common Characters 找出共同字母出](1002_Find_Common_Characters.md)
+* [1002. Find Common Characters 找出共同字母出](1002_Find_Common_Characters.md)
 * [0383. Ransom Note 贖金信](0383_Ransom_Note.md)
 * [0242. Valid Anagram 有效的字謎](0242_Valid_Anagram.md)
 * [0014. Longest Common Prefix 最長共同字首](0014_Longest_Common_Prefix.md)
