@@ -15,6 +15,7 @@
 ```kotlin
 // success
 // time:  O(n)
+// n 為兩陣列中較長者的長度
 // space: O(1)
 
 package maxlendiff

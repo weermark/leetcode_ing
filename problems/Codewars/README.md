@@ -8,4 +8,6 @@
 
 ### 7 kyu
 
-* [Maximum Length Difference 最大長度差](MaximumLengthDifference.md)
+* [Maximum Length Difference 最大長度差](Maximum_Length_Difference.md)
+* [Sum of odd numbers 奇數和](Sum_of_odd_numbers.md)
+* [Reverse Letter 翻轉字母](Reverse_Letter.md)
