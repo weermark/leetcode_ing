@@ -68,6 +68,7 @@ leetcode 題目歷程記錄使用。
 ## String
 
 * [0014. Longest Common Prefix 最長共同字首](0014_Longest_Common_Prefix.md)
+* [0058. Length of Last Word 最後一個單字的長度](0058_Length_of_Last_Word.md)
 * [0242. Valid Anagram 有效的字謎](0242_Valid_Anagram.md)
 * [0383. Ransom Note 贖金信](0383_Ransom_Note.md)
 * [1002. Find Common Characters 找出共同字母出](1002_Find_Common_Characters.md)
