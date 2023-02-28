@@ -31,6 +31,10 @@ leetcode 題目歷程記錄使用。
 * [0704. Binary Search 二分搜索](0704_Binary_Search.md)
 * [0035. Search Insert Position 尋找插入位置](0035_Search_Insert_Position.md)
 
+### 前綴和
+
+* [0303_Range_Sum_Query_Immutable 區間和查詢-不可變](0303_Range_Sum_Query_Immutable.md)
+
 ## LinkedList
 
 * [0206. Reverse Linked List 反轉鏈結](0206_Reverse_Linked_List.md)
