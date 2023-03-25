@@ -2,14 +2,7 @@
 
 定義: 輸入二元樹根節點，輸出每個節點所在層數。
 
-做法: 往下 (子節點) 傳遞非累增變數，每往下傳一個節點就加一。
-
-程式:
-
 ```java
-// time:  O(v)
-// space: O(h)
-
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -25,8 +18,16 @@
  *     }
  * }
  */
+```
 
-// java
+做法: 往下 (子節點) 傳遞非累增變數，每往下傳一個節點就加一。
+
+程式:
+
+```java
+// time:  O(v)
+// space: O(h)
+
 // call
 void treeNodeLevel(TreeNode root){
     if(root == null){

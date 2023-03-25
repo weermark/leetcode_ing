@@ -28,8 +28,9 @@ leetcode 題目歷程記錄使用。
 
 ### Binary Search
 
-* [0704. Binary Search 二分搜索](0704_Binary_Search.md)
 * [0035. Search Insert Position 尋找插入位置](0035_Search_Insert_Position.md)
+* [0278. First Bad Version 第一個壞版本](0278_First_Bad_Version.md)
+* [0704. Binary Search 二分搜索](0704_Binary_Search.md)
 
 ### 前綴和
 
@@ -63,6 +64,7 @@ leetcode 題目歷程記錄使用。
 * [0111. Minimum Depth of Binary Tree 二元樹的最小深度](0111_Minimum_Depth_of_Binary_Tree.md)
 * [0116. Populating Next Right Pointers in Each Node 填充 next 指針](0116_Populating_Next_Right_Pointers_in_Each_Node.md)
 * [0144. Binary Tree Preorder Traversal 二元樹的前序遍歷](0144_Binary_Tree_Preorder_Traversal.md)
+* [0145. Binary Tree Postorder Traversal 二元樹的後序遍歷](0145_Binary_Tree_Postorder_Traversal.md)
 * [0226. Invert Binary Tree 翻轉二元樹](0226_Invert_Binary_Tree.md)
 * [0543. Diameter of Binary Tree 二元樹的最長直徑](0543_Diameter_of_Binary_Tree.md)
 * [0654. Maximum Binary Tree 建構最大二元樹](0654_Maximum_Binary_Tree.md)
