@@ -30,6 +30,7 @@ leetcode 題目歷程記錄使用。
 
 * [0035. Search Insert Position 尋找插入位置](0035_Search_Insert_Position.md)
 * [0278. First Bad Version 第一個壞版本](0278_First_Bad_Version.md)
+* [0374. Guess Number Higher or Lower 猜數字](0374_Guess_Number_Higher_or_Lower.md)
 * [0704. Binary Search 二分搜索](0704_Binary_Search.md)
 
 ### 前綴和
