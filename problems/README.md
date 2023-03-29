@@ -12,6 +12,8 @@ leetcode 題目歷程記錄使用。
 
 ## Array
 
+* [2057. Smallest Index With Equal Value 與值相等的最小索引](2057_Smallest_Index_With_Equal_Value.md)
+
 ### 雙指針
 
 * [0026. Remove Duplicates from Sorted Array 從有序陣列移除重複元素](0026_Remove_Duplicates_from_Sorted_Array.md)
@@ -26,7 +28,7 @@ leetcode 題目歷程記錄使用。
 
 * [0209_Minimum Size Subarray Sum 最小長度子陣列](0209_Minimum_Size_Subarray_Sum.md)
 
-### Binary Search
+### 二分搜索
 
 * [0035. Search Insert Position 尋找插入位置](0035_Search_Insert_Position.md)
 * [0278. First Bad Version 第一個壞版本](0278_First_Bad_Version.md)
@@ -36,6 +38,10 @@ leetcode 題目歷程記錄使用。
 ### 前綴和
 
 * [0303_Range_Sum_Query_Immutable 區間和查詢-不可變](0303_Range_Sum_Query_Immutable.md)
+
+### 邏輯運算
+
+* [136. Single Number 只出現一次的數](0136_Single_Number.md)
 
 ## LinkedList
 
@@ -78,6 +84,7 @@ leetcode 題目歷程記錄使用。
 * [0058. Length of Last Word 最後一個單字的長度](0058_Length_of_Last_Word.md)
 * [0242. Valid Anagram 有效的字謎](0242_Valid_Anagram.md)
 * [0383. Ransom Note 贖金信](0383_Ransom_Note.md)
+* [0520. Detect Capital 偵測大寫](0520_Detect_Capital.md)
 * [1002. Find Common Characters 找出共同字母出](1002_Find_Common_Characters.md)
 
 ## Graph
