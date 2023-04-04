@@ -12,6 +12,7 @@ leetcode 題目歷程記錄使用。
 
 ## Array
 
+* [2073. Time Needed to Buy Tickets 買票所需時間](2073_Time_Needed_to_Buy_Tickets.md)
 * [2057. Smallest Index With Equal Value 與值相等的最小索引](2057_Smallest_Index_With_Equal_Value.md)
 
 ### 雙指針
@@ -19,6 +20,7 @@ leetcode 題目歷程記錄使用。
 * [0026. Remove Duplicates from Sorted Array 從有序陣列移除重複元素](0026_Remove_Duplicates_from_Sorted_Array.md)
 * [0027. Remove Element 移除元素](0027_Remove_Element.md)
 * [0009. Palindrome Number 迴文數](0009_Palindrome_Number.md)
+* [0392. Is Subsequence 是否是子序列](0392_Is_Subsequence.md)
 * [0344. Reverse String 反轉字串](0344_Reverse_String.md)
 * [0977. Squares of a Sorted Array 有序陣列的平方](0977_Squares_of_a_Sorted_Array.md)
 * [0283. Move Zeroes 移動零](0283_Move_Zeroes.md)
@@ -26,7 +28,7 @@ leetcode 題目歷程記錄使用。
 
 ### 滑動窗口
 
-* [0209_Minimum Size Subarray Sum 最小長度子陣列](0209_Minimum_Size_Subarray_Sum.md)
+* [0209. Minimum Size Subarray Sum 最小長度子陣列](0209_Minimum_Size_Subarray_Sum.md)
 
 ### 二分搜索
 
@@ -37,7 +39,8 @@ leetcode 題目歷程記錄使用。
 
 ### 前綴和
 
-* [0303_Range_Sum_Query_Immutable 區間和查詢-不可變](0303_Range_Sum_Query_Immutable.md)
+* [0303. Range Sum Query Immutable 區間和查詢-不可變](0303_Range_Sum_Query_Immutable.md)
+* [0724. Find Pivot Index 找出關鍵索引](0724_Find_Pivot_Index.md)
 
 ### 邏輯運算
 
@@ -73,6 +76,7 @@ leetcode 題目歷程記錄使用。
 * [0144. Binary Tree Preorder Traversal 二元樹的前序遍歷](0144_Binary_Tree_Preorder_Traversal.md)
 * [0145. Binary Tree Postorder Traversal 二元樹的後序遍歷](0145_Binary_Tree_Postorder_Traversal.md)
 * [0226. Invert Binary Tree 翻轉二元樹](0226_Invert_Binary_Tree.md)
+* [0257. Binary Tree Paths 二元樹的路徑](0257_Binary_Tree_Paths.md)
 * [0543. Diameter of Binary Tree 二元樹的最長直徑](0543_Diameter_of_Binary_Tree.md)
 * [0654. Maximum Binary Tree 建構最大二元樹](0654_Maximum_Binary_Tree.md)
 * [other. Tree Node Count 二元樹的節點數](other_Tree_Node_Count.md)
@@ -84,6 +88,7 @@ leetcode 題目歷程記錄使用。
 * [0058. Length of Last Word 最後一個單字的長度](0058_Length_of_Last_Word.md)
 * [0242. Valid Anagram 有效的字謎](0242_Valid_Anagram.md)
 * [0383. Ransom Note 贖金信](0383_Ransom_Note.md)
+* [0392. Is Subsequence 是否是子序列](0392_Is_Subsequence.md)
 * [0520. Detect Capital 偵測大寫](0520_Detect_Capital.md)
 * [1002. Find Common Characters 找出共同字母出](1002_Find_Common_Characters.md)
 
