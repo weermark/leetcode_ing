@@ -56,6 +56,7 @@ leetcode 題目歷程記錄使用。
 * [0206. Reverse Linked List 反轉鏈結](0206_Reverse_Linked_List.md)
 * [0021. Merge Two Sorted Lists 合併鏈結](0021_Merge_Two_Sorted_Lists.md)
 * [0707. Design Linked List 設計鏈結](0707_Design_Linked_List.md)
+* [1721. Swapping Nodes in a Linked List 交換鏈結中的節點](1721_Swapping_Nodes_in_a_Linked_List.md)
 
 ## Stack 
 
