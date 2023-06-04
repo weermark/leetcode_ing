@@ -102,6 +102,8 @@ leetcode 題目歷程記錄使用。
 
 ## Graph
 
+* [0547. Number of Provinces 省分數量](0547_Number_of_Provinces.md)
+* [0785. Is Graph Bipartite? 是否為二分圖?](0785_Is_Graph_Bipartite.md)
 * [0797. All Paths From Source to Target 所有路徑](0797_All_Paths_From_Source_to_Target.md)
 
 ### UnionFind
