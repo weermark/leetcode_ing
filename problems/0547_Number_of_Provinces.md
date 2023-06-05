@@ -2,7 +2,7 @@
 
 [leetcode題目連結](https://leetcode.com/problems/number-of-provinces/description/)
 
-定義: 給一相鄰矩陣，元素 0 沒相連，1 為有相連。回傳連通分量。
+定義: 給一相鄰矩陣，元素 0 沒相連，1 為有相連。回傳連通分量數。
 
 ## 解題
 
