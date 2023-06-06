@@ -13,6 +13,7 @@ leetcode 題目歷程記錄使用。
 ## Array
 
 * [1232. Check If It Is a Straight Line 檢查是否為直線](1232_Check_If_It_Is_a_Straight_Line.md)
+* [1502. Can Make Arithmetic Progression From Sequence 序列是否可以成為等差級數](1502_Can_Make_Arithmetic_Progression_From_Sequence.md)
 * [1572. Matrix Diagonal Sum 矩陣對角和](1572_Matrix_Diagonal_Sum.md)
 * [2073. Time Needed to Buy Tickets 買票所需時間](2073_Time_Needed_to_Buy_Tickets.md)
 * [2057. Smallest Index With Equal Value 與值相等的最小索引](2057_Smallest_Index_With_Equal_Value.md)
